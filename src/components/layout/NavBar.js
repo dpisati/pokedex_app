@@ -7,7 +7,7 @@ export class NavBar extends Component {
       <div>
         <div className="pokedex">
           <div className="back_bar"></div>
-          <a href="http://localhost:3000/#/">
+          <a href="https://dpisati.github.io/pokedex_app/#/">
             <img
               src={PokedexLogo}
               alt="pokedex_logo"
