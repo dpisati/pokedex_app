@@ -36,7 +36,7 @@ h1 {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: rgb(255, 69, 69);
+  background-color: #fd1a55;
   width: 100%;
   height: 70px;
   z-index: -1;
@@ -274,6 +274,13 @@ h1 {
   }
 }
 @media only screen and (max-width: 575px) {
+  .pokedex_background {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    display: absolute;
+  }
+
   .App {
     overflow-x: hidden;
   }

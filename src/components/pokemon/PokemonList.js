@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PokemonCard from "./PokemonCard";
 import OnePokemon from "./OnePokemon";
-import Pokedex from "../../pictures/pokedex_backgroup.png";
+
 import axios from "axios";
 
 export default class PokemonList extends Component {
