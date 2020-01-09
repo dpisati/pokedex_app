@@ -1,6 +1,6 @@
 {
   "name": "pokedex",
-  "homepage": "https://dpisati.github.io/pokedex/",
+  "homepage": "https://dpisati.github.io/pokedex_app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
