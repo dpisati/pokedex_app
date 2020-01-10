@@ -286,26 +286,23 @@ h1 {
     width: 98%;
   }
   .pokedex_background {
-    position: relative;
-    left: 0;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     background: url(../src/pictures/pokedex_backgroup_mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    max-width: 900px;
-    padding-top: 30px;
-    margin-top: 60px;
-    height: 60vh;
+    width: 300px;
+    left: 15px;
+    top: -30px;
   }
   .input_div {
-    left: 55px;
-    top: -100px;
+    position: absolute;
+    left: 40px;
+    top: 365px;
     width: 120px;
     height: 80px;
   }
+
   .input_pokemon {
     height: 25px;
     font-size: 9px;
@@ -317,25 +314,25 @@ h1 {
   }
 
   .pokemon_result {
-    width: 175px;
+    width: 180px;
     height: 110px;
-    top: 180px;
-    left: 75px;
+    top: 197px;
+    left: 61px;
   }
   .onepokemon_img {
     width: 140px;
     height: 140px;
   }
   .pokedex_logo {
-    height: 50px;
-    width: 150px;
+    height: 6fd1a550px;
+    width: 180px;
   }
   .main {
     padding-top: 20px;
   }
   .pokemonOn_btn {
     position: absolute;
-    top: 480px;
+    top: 490px;
   }
   .spinner_div {
     position: relative;
@@ -344,5 +341,8 @@ h1 {
   .loads {
     position: absolute;
     top: 560px;
+  }
+  .back_bar {
+    height: 40px;
   }
 }
