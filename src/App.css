@@ -283,6 +283,7 @@ h1 {
 
   .App {
     overflow-x: hidden;
+    width: 98%;
   }
   .pokedex_background {
     position: relative;
@@ -291,30 +292,39 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     background: url(../src/pictures/pokedex_backgroup_mobile.png);
-    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 900px;
+    padding-top: 30px;
+    margin-top: 60px;
+    height: 60vh;
   }
   .input_div {
-    left: 25px;
-    top: -175px;
-    width: 150px;
+    left: 55px;
+    top: -100px;
+    width: 120px;
     height: 80px;
   }
-  .pokedex_background {
-    margin-top: 0;
+  .input_pokemon {
+    height: 25px;
+    font-size: 9px;
   }
+
+  .input_button {
+    height: 25px;
+    font-size: 9px;
+  }
+
   .pokemon_result {
-    width: 225px;
-    height: 130px;
-    top: 215px;
-    left: 50px;
+    width: 175px;
+    height: 110px;
+    top: 180px;
+    left: 75px;
   }
   .onepokemon_img {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
   }
   .pokedex_logo {
     height: 50px;
@@ -324,6 +334,14 @@ h1 {
     padding-top: 20px;
   }
   .pokemonOn_btn {
+    position: absolute;
+    top: 480px;
+  }
+  .spinner_div {
+    position: relative;
+    top: -20px;
+  }
+  .loads {
     position: absolute;
     top: 560px;
   }
