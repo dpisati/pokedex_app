@@ -324,8 +324,10 @@ h1 {
   .pokemon_result {
     width: 180px;
     height: 110px;
-    top: 197px;
-    left: 61px;
+    position: relative;
+    top: -370px;
+    left: calc((100vw - 300px) / 2 + 45px);
+    right: 0;
   }
   .onepokemon_img {
     width: 140px;
