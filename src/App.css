@@ -274,11 +274,15 @@ h1 {
   }
 }
 @media only screen and (max-width: 575px) {
-  .pokedex_background {
+  .pokedex_div {
     margin: 0;
-    padding: 0;
+    position: absolute;
     left: 0;
-    display: absolute;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw; /* Need a specific value to work */
+    margin-top: 3vh;
   }
 
   .App {
@@ -291,16 +295,20 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 300px;
-    left: 15px;
-    top: -30px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; /* Need a specific value to work */
   }
   .input_div {
-    position: absolute;
-    left: 40px;
-    top: 365px;
+    position: relative;
+    top: -200px;
     width: 120px;
     height: 80px;
+    left: calc((100vw - 300px) / 2 + 27px);
+    right: 0;
   }
 
   .input_pokemon {
@@ -332,7 +340,7 @@ h1 {
   }
   .pokemonOn_btn {
     position: absolute;
-    top: 490px;
+    top: 85vh;
   }
   .spinner_div {
     position: relative;
