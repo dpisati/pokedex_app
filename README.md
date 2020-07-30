@@ -15,9 +15,9 @@
 
 ## :bookmark: About
 
-<strong>Pokedex App</strong> is a online library to help people find your favorite Pokemon.
+<strong>Pokedex App</strong> is an online library to help people find your favorite Pokemon.
 
-This application was made to exercise the connection between <strong>Reaxt</strong> and an outside API promoted by [PokéAPI](https://pokeapi.co/).
+This application was made to exercise the connection between <strong>React</strong> and an outside API promoted by [PokéAPI](https://pokeapi.co/).
 
 <a id="technologies"></a>
 
