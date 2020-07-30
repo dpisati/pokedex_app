@@ -56,6 +56,7 @@ The project is made with:
 
 ```sh
   # Install dependencies for each folder: mobile, server, web.
+  $ cd pokedex_app
   $ npm install
 
   # Start the web application
