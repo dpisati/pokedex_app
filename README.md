@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src=".github/pokedex_logo.png">
+    <br><br>
+    <b>Search for your favorite Pokemon with Pokedex App!</b>  
+    <br>
+</h3>
 
-## Available Scripts
+# Index
 
-In the project directory, you can run:
+- [About](#about)
+- [Technologies](#technologies)
+- [How to use](#how-to-use)
 
-### `npm start`
+<a id="about"></a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :bookmark: About
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<strong>Pokedex App</strong> is a online library to help people find your favorite Pokemon.
 
-### `npm test`
+This application was made to exercise the connection between <strong>Reaxt</strong> and an outside API promoted by [PokéAPI](https://pokeapi.co/).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a id="technologies"></a>
 
-### `npm run build`
+## :rocket: Technologies
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project is made with:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :heavy_check_mark: :computer: Web
 
-### `npm run eject`
+<h1 align="center">
+    <img alt="Web" src=".github/pokedex.gif" width="900px">
+</h1>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="how-to-use"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :fire: How to Use
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ### **Dependencies**
 
-## Learn More
+  - Is **required** to install **[Node.js](https://nodejs.org/en/)**
+  - In order to run scripts and install dependencies you need to install a **package manager** (ie: **[NPM](https://www.npmjs.com/)**).
+  
+  <br><br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. First step, clone this github repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+  $ git clone https://github.com/dpisati/pokedex_app.git
+```
 
-### Code Splitting
+2. Run the application:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```sh
+  # Install dependencies for each folder: mobile, server, web.
+  $ npm install
 
-### Analyzing the Bundle Size
+  # Start the web application
+  $ npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
